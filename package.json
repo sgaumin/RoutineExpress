@@ -1,0 +1,16 @@
+{
+    "name": "com.sgaumin.routineexpress",
+    "version": "0.1.0",
+    "displayName": "Routine Express",
+    "unity": "2018.4",
+    "description": "Easily assign coroutine to external MonoBehaviour units",
+    "keywords": ["coroutine", "runtime"],
+    "category": "coroutine extension",
+    "dependencies": {},
+    "licensesUrl": "https://github.com/sgaumin/RoutineExpress/blob/main/LICENSE.md",
+    "author": {
+        "name": "Sébastien Gaumin",
+        "email": "sgaumin@gmail.com",
+        "url": "https://github.com/sgaumin"
+    }
+}
