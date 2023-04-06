@@ -1,22 +1,43 @@
-# RoutineExpress
-[![Unity 2018.4+](https://img.shields.io/badge/unity-2018.4%2B-blue.svg)](https://unity3d.com/get-unity/download)
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/sgaumin/RoutineExpress/blob/main/LICENSE.md)
+<div align="center">
 
-Unity library to quickly setup 2D animations in editor
+# Routine-Express
+
+[![Unity 2020.3](https://img.shields.io/badge/unity-2020.3%2B-blue.svg)](https://unity3d.com/get-unity/download)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/sgaumin/RoutineExpress/blob/main/LICENSE.md)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/Seb_gamedev.svg?style=social&label=Follow%20%40Seb_gamedev)](https://twitter.com/Seb_gamedev)
+
+**Lightweight Unity Utility to setup Routine on external MonoBehavior**
+</div>
 
 ## Installation
-Simply import this package with Unity Package Manager by using the url *https://github.com/sgaumin/RoutineExpress.git*
+You can install this library by the steps below.
 
-## System Requirements
-Unity **2018.4** or later versions. Don't forget to include the RoutineExpress namespace.
+1. Select **Window > Package Manager** from the menu bar.
+2. Click the **+** button in the upper left corner of the window and select **Add package from git URL...**.
+3. Enter the following URL in the input field and click **Add**.
 
-## Overview
-TODO
-
-### Code Example
-```csharp
-// TODO
 ```
+https://github.com/sgaumin/RoutineExpress.git
+```
+
+## Demo
+```csharp
+using RoutineExpress;
+
+public class RoutineExpressTester 
+{
+    private void Start()
+    {
+        RoutinePool.Run(MyIEnumeratorMethod);
+    }
+}
+```
+
+## Support
+
+If you ever come across any issues please feel free to report to the [Issues](https://github.com/sgaumin/RoutineExpress/issues) page on this repository. All feedback is appreciated, and will be
+taken on board for any future updates. 
+
 ## License
 
 [MIT License](https://github.com/sgaumin/RoutineExpress/blob/main/LICENSE.md)
